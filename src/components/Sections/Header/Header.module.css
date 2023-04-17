@@ -1,0 +1,49 @@
+header {
+  background-color: #009688;
+  padding-block: 10px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.4;
+  transition: 0.3s;
+}
+
+header .logo:hover {
+  color: antiquewhite;
+}
+
+header .log {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2c2c2c;
+  font-weight: bold;
+  font-size: 19px;
+  cursor: pointer;
+}
+header .log.logout {
+  color: red;
+}
+
+header .log span {
+  display: flex;
+  max-width: 0;
+  overflow: hidden;
+  transition: .3s;
+}
+
+
+header .log:hover span {
+  max-width: 60px;
+}
+
+header .log img{
+  width: 25px;
+}

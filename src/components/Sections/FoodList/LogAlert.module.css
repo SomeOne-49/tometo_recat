@@ -1,0 +1,49 @@
+.alert {
+  position: fixed;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 150;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.btns button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.85;
+}
+
+.btns button:hover {
+  opacity: 1;
+}
+
+.btns button.login {
+  background-color: #009688;
+  color: white;
+}
+.btns button.login:hover {
+  transform: scale(1.04);
+}
+.btns button.guest {
+  background-color: indianred;
+  color: white;
+
+}
+
+  .btns button.guest:hover {
+    transform: scale(.97);
+  }

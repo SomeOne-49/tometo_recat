@@ -1,0 +1,58 @@
+.input__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.input__fields input {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  outline-color: #009688;
+  font-size: 17px;
+}
+
+.form .error {
+  color: #ffeb3b;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #009688;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.form .tips h4 {
+  margin-top: 10px;
+  color: #ffeb3b;
+  text-align: center;
+}
+
+.form .tips  div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px 15px;
+  color: white;
+}
+
+.form .tips span {
+  color: #b4f9f2
+}

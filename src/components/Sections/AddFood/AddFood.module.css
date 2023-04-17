@@ -1,0 +1,38 @@
+.add__food {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 750px;
+  margin-inline: auto;
+  margin-bottom: 10px;
+}
+
+.add__food form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.add__food input {
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.add__food button {
+  border: none;
+  background: #009688;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add__food h4 {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}

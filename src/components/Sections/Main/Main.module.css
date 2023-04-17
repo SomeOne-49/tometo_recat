@@ -1,0 +1,18 @@
+.main {
+  margin-bottom: 160px;
+  position: relative;
+}
+
+.main.not__guest {
+  margin-bottom: 100px;
+}
+
+.main img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+  transform: rotate(353deg) scale(1.2);
+  margin-top: -140px;
+  position: relative;
+  z-index: -1;
+}
